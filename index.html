@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    hello world
-</body>
+	<head>
+
+		<meta charset='utf-8'>
+		<meta name="description" content="Personal Site for David Carlin - Web Developer">
+		<meta name="author" content="David Carlin">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>David Carlin</title>
+
+					<!--Bootstrap links, CSS, JQUERY, JavaScript-->
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+		<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<header class="jumbotron text-center animate-bottom noOverflow relativeP">
+			<div class="logo">
+				<h1 class="myName">David Carlin</h1>
+				<p>Front-End Web Developer</p>
+			</div>
+		</header>
+
+		<nav class="container padding5" id="navigator">
+			<ul class="nav nav-pills nav-justified padding-zero">
+				<li class="nav-item" id="navWho">
+					<a class="nav-link hover-light">Who I Am</a>
+				</li>
+				<li class="nav-item" id="navPortfolio">
+					<a class="nav-link hover-light">Portfolio</a>
+				</li>
+				<li class="nav-item" id="navResume">
+					<a class="nav-link hover-light">Resume</a>
+				</li>
+				<li class="nav-item" id="navContact">
+					<a class="nav-link hover-light">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<footer class="container-fluid text-center" id="footer">
+			<div class="row">
+				<div class="col-sm-6" id="contact">
+					<p>Contact</p>
+					<hr>
+					<div id="socialLinks">
+						<a id="resumeEmail" href="mailto: dave.carlin86@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
+						<a id="resumePhone" href="tel: 919-368-2008"><span class="glyphicon glyphicon-phone-alt"></span></a>
+						<a href="https://github.com/dscarlin" target="_blank"><img id="git" src="assets/images/github.png" alt="github"></a>
+						<a href="https://www.linkedin.com/in/dave-carlin" target="_blank"><img id="link" src="assets/images/linkedin.png" alt="linked-in"></a>
+					</div>	
+				</div>
+				<div class="col-sm-6" id="projectList"></div>
+				
+			</div>
+			<div class="row text-center margin-top">
+				<div class="col-sm-12" id="copyright">&copy Copyright - David Carlin 2019</div>
+			</div>
+		</footer>
+
+		<script src="assets/javascript/logic.js"></script>
+	</body>
 </html>
