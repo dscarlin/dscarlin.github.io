@@ -12,17 +12,10 @@ $(window).scroll(() => {
 var projectList = [
 	"<p>Mini Projects</p>",
 	"<hr>",
-<<<<<<< HEAD
-	"<div><a href='' target='_blank'></a></div>",
-	"<div><a href='' target='_blank'></a></div>",	
-	"<div><a href='' target='_blank'></a></div>",
-	"<div><a href='' target='_blank'></a></div>",
-=======
 	"<div><a href='https://dscarlin.github.io/Word-Guess-Game/' target='_blank'>Dinosaur Hangman</a></div>",
 	"<div><a href='https://dscarlin.github.io/unit-4-game/' target='_blank'>Lord of the Rings RPG</a></div>",	
 	"<div><a href='https://dscarlin.github.io/TriviaGame/' target='_blank'>90's Tv Show Trivia </a></div>",
 	"<div><a href='https://dscarlin.github.io/unit-6-giphy/' target='_blank'>News and Entertainment Collection App</a></div>",
->>>>>>> update
 	];
 		
 
@@ -30,11 +23,7 @@ var projectList = [
 
 
 projectList.forEach((element) => {
-<<<<<<< HEAD
-	$("#projectListOne").append(element);
-=======
 	$("#projectList").append(element);
->>>>>>> update
 })
 
 
