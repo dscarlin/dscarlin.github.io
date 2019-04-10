@@ -44,6 +44,7 @@ a {
 
 .hover-light:hover {
 	color: #333;
+	cursor: pointer;
 }
 
 .padding5 {
