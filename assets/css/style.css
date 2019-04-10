@@ -8,7 +8,7 @@ body {
 *****************************************************/
 
 .jumbotron {
-	background-image: url("../images/fenwick.jpg");
+	background-image: url("../images/fenwick.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -169,7 +169,7 @@ a {
 }
 
 #meAndSyd {
-	background-image: url("../images/MeAndSydney.jpg");
+	background-image: url("../images/MeAndSydney.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -178,7 +178,7 @@ a {
 
 #family {
 	display: none;
-	background-image: url("../images/family.jpg");
+	background-image: url("../images/family.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -186,7 +186,7 @@ a {
 
 #kayaking {
 	display: none;
-	background-image: url("../images/Kayaking.jpg");
+	background-image: url("../images/Kayaking.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -320,7 +320,7 @@ footer hr {
 	}
 
 	.jumbotron {
-		background-image: url("../images/fenwick.jpg");
+		background-image: url("../images/fenwick.JPG");
 	    height: 94vh;
 	}
 
