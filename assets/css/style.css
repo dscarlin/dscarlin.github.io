@@ -273,6 +273,34 @@ footer hr {
 	text-align: center;
 }
 
+/****************************************************
+					PORTFOLIO
+*****************************************************/
+
+.card {
+	margin: 0 auto;
+}
+
+.mb-80 {
+	margin-bottom: 80px;
+}
+
+#portBanner {
+	width: 100%;
+}
+
+#portBackground {
+	background-image: url("../images/sand.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+#portfolio a {
+	color: #009FAD;
+}
+
 /**************************************
 		  Media Queries 
 **************************************/
