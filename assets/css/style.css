@@ -156,6 +156,10 @@ a {
 	opacity: 1;
 }
 
+.captionLg {
+	font-size: large;
+}
+
 #whoMobile {
 	display: none;
 }
