@@ -174,7 +174,7 @@ a {
 
 #meAndSyd {
 	background-image: url("../images/MeAndSydney.JPG");
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -315,6 +315,10 @@ footer hr {
 	.jumbotron h1 {
 		font-size: 60px;
 	}
+	#meAndSyd {
+		background-attachment: scroll;
+		background-size: cover;
+	}
 }
 
 
@@ -366,9 +370,7 @@ footer hr {
 		display: inherit;
 	}
 
-	#meAndSyd {
-		background-attachment: scroll;
-	}
+	
 
 	#git {
 		width: 50px;

@@ -3,7 +3,7 @@ $(window).scroll(() => {
 	let pixFromTop = $(this).scrollTop();	
 
 	$('.logo').css({
-		'transform': `translate(0px, ${pixFromTop/5})`
+		'transform': `translate(0px, ${pixFromTop/5}%)`
 	});
 
 });
