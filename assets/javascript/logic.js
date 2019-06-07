@@ -24,7 +24,7 @@ var projectList = [
 
 
 projectList.forEach((element) => {
-	$("#projectList").append(element);
+	$(".projectList").append(element);
 })
 
 

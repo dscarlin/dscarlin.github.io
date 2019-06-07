@@ -8,11 +8,11 @@ body {
 *****************************************************/
 
 .jumbotron {
-	background-image: url("../images/fenwick640.JPG");
+	background-image: url("../images/fenwick.JPG");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	height: 92vh;
 	margin-bottom: 2px;
 }
@@ -160,8 +160,12 @@ a {
 	font-size: large;
 }
 
-.descrip-left {
+.descrip-left, .list-right{
 	display: none
+}
+
+.list-left {
+	margin-bottom: 2em;
 }
 
 #whoMobile {
@@ -186,7 +190,7 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
 #family {
@@ -309,7 +313,7 @@ footer hr {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 
 #portfolio a {
@@ -340,7 +344,7 @@ footer hr {
 		background-image: url("../images/fenwick.JPG");
 	    height: 94vh;
 	}
-	
+
 	#portBackground {
 		background-image: url("../images/sand.jpg");
 	    /* height: 94vh; */
@@ -359,11 +363,15 @@ footer hr {
 		padding: 0 4px 0 0;
 	}
 
-	.descrip-left {
+	.descrip-left  {
 		display: inherit;
 	}
+
+	.list-right {
+		display: inline-block;
+	}
 	
-	.descrip-right {
+	.descrip-right, .list-left{
 		display: none;
 	}
 
