@@ -347,7 +347,7 @@ footer hr {
 
 	#portBackground {
 		background-image: url("../images/sand.jpg");
-	    /* height: 94vh; */
+		background-attachment: fixed;
 	}
 	
 }
